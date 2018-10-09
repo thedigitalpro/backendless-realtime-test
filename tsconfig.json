@@ -16,6 +16,17 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "backendless": [
+        "./node_modules/backendless/lib/index.js"
+      ],
+      "backendless-rt-client": [
+        "./node_modules/backendless-rt-client/lib/index.js"
+      ],
+      "backendless-request": [
+        "./node_modules/backendless-request/dist/backendless-request.js"
+      ]
+    }
   }
 }
